@@ -16,6 +16,12 @@ void fun_baq(int vbaq) {
 #undef NAMEX
 #undef FUNX
 
+#define FUNX fun_xxx3
+#define NAMEX vxxx3
+#include "a.h"
+#undef NAMEX
+#undef FUNX
+
 #define FUNY fun_yyy2
 #define NAMEY vyyy2
 #include "b.h"
