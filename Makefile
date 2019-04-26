@@ -1,4 +1,4 @@
 
 all:
-	gcc -c test.c
+	gcc -c main.c
 
